@@ -1,12 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-</head>
-<body>
-<h1>prathmesh</h1>    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/img/h.png" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Prathmesh P Shelar</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <!-- &#60; Hardik /&#62; -->
+          <a href="#home" class="nav-logo"
+            ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMvV73jRT9OkiI4dTqvA4UxYJmAgCZGoOKOA&usqp=CAU" alt="A"
+          /></a>
+        </div>
+
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link home active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link about">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid section" id="home">
+        <div class="home-data">
+          <h2 class="home-title">
+            Hi 👋,<br />I'am
+            <span class="home-title-color">Shelar Prathmesh</span><br />
+            JAVA  <br />
+            Back-end Developer
+          </h2>
+
+          <a
+            href="https://drive.google.com/file/d/1TpsN9zJVs7Q-AJY1iP49pbb-Da6AYls-/view?usp=sharing"
+            target="_blank"
+            class="button"
+            >Resume</a
+          >
+        </div>
+
+        <div class="home-social">
+          <a
+            href="https://www.linkedin.com/in/gagan-chandan-p%F0%9F%95%B7-3b4590231/"
+            target="_blank"
+            class="home-social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/PrathmeshS-0595"
+            target="_blank"
+            class="home-social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <div class="home-img">
+          <img
+            style="border-radius: 70%"
+            src="assets/img/Prathmesh.png"
+            alt="Im Gagan Chandan"
+          />
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        
+        <h2 class="section-title">About</h2>
+        <img 
+          style="
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            margin-bottom: 20px;
+          "
+          src="assets/img/Prathmesh.png "
+          alt="Im PPS"
+        />
+        <div class="about-container bd-grid">
+          <!-- <div class="about-img">
+            <img src="assets/img/Profile1.png" alt="" />
+          </div> -->
+
+          <div style="text-align: center">
+            <h2 class="about-subtitle">Prathmesh Shelar</h2>
+            <p class="about-text">
+              Aspiring JAVA Back-end developer with core knowledge of JAVA.
+              Looking forward to apply and enhance my skills and knowledge as a
+              developer.
+            </p>
+            <br />
+            <p>
+              Drop a mail @ prathmeshshelar13999@gmail.com
+              <i
+                style="color: #4070f4; font-size: 1.2rem; cursor: pointer"
+                class="bx bx-copy"
+                id="copy"
+              ></i>
+            </p>
+          </div>
+        </div>
+      </section>
+
+     <!-- ===== SKILLS =====
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-container bd-grid">
+          <div>
+            <h2 class="skills-subtitle">Front-end Skills</h2>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-html5 skills-icon"></i>
+                <span class="skills-name">HTML5</span>
+              </div>
+             
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-css3 skills-icon"></i>
+                <span class="skills-name">CSS3</span>
+              </div>
+             
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-javascript skills-icon"></i>
+                <span class="skills-name">JAVASCRIPT</span>
+              </div>
+              
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-react skills-icon"></i>
+                <span class="skills-name">React</span>
+              </div>
+              
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-redux skills-icon"></i>
+                <span class="skills-name">Redux</span>
+              </div>
+             
+            </div>
+           
+            <div class="skills-data">
+              <div class="skills-names">
+                <img
+                  class="skills-icon"
+                  src="./assets/img/typescript.png"
+                  alt=""
+                />
+                <span class="skills-name">TypeScript</span>
+              </div>
+             
+            </div>
+          </div>
+          <div>
+            <h2 class="skills-subtitle">Back-end Skills </h2>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img
+                  class="skills-icon"
+                  src="bx bxl-html5 skills-icon"
+                  alt=""
+                />
+                <span class="skills-name">HTML5</span>
+              </div>
+             
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-css3 skills-icon"></i>
+                <span class="skills-name">CSS</span>
+              </div>
+             
+            </div>
+            
+            <div class="skills-data">
+              <div class="skills-names">
+                <img
+                  class="skills-icon"
+                  src="./assets/img/mongodb.png"
+                  alt=""
+                />
+                <span class="skills-name">MongoDB</span>
+              </div>
+            
+            </div>
+        </div>
+      </section>// -->
+
+      <!--===== Projects =====-->
+      <section
+        class="projects section"
+        id="projects"
+        style="margin-bottom: 30px"
+      >
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-container">
+          <div class="project-img">
+            <img src="assets/img/jio mart.png" alt="Modesens" />
+            <p class="project-title">JIO Mart</p>
+            <p class="project-subtitle">
+              JioMart is an Indian e-commerce company which initially focused on
+              online groceries sales <br />
+              <br />
+              A collaborative project, built in 5 days by a team of 5
+              developers. <br />
+              <br />HTML | CSS | JavaScript | Json | Git
+            </p>
+            <div class="project-btns">
+              <a
+                href="https://github.com/faizanghani2222/saucy-horses-1675"
+                target="_blank"
+                class="small-btn button"
+              >
+                Code<i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://effulgent-narwhal-bd55d8.netlify.app/"
+                target="_blank"
+                class="small-btn button"
+              >
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-img">
+            <img src="assets/img/KImaye.png" alt="Myntra" />
+            <p class="project-title">Kimaye Clone</p>
+            <p class="project-subtitle">
+              Hassle free online fruit ordering platform <br />
+              <br />
+              A collaborative project built by a team of 6, executed in 5 days.
+              <br />
+              <br />
+              HTML | CSS | JavaScript | Git
+            </p>
+            <div class="project-btns">
+              <a
+                href="https://github.com/jagtapyogesh41/unit-2-project"
+                target="_blank"
+                class="small-btn button"
+              >
+                Code<i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://zesty-alpaca-5eff78.netlify.app/"
+                target="_blank"
+                class="small-btn button"
+              >
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- <div class="project-img">
+            <img src="assets/img/Screenshot (923).png" alt="Shop.com" />
+            <p class="project-title">Shop.com</p>
+            <p class="project-subtitle">
+              Shop.com is an E-commerce website, where all types are products
+              are avaliable! <br />
+              <br />
+              A collaborative project built by a team of 6, executed in 5 days.
+              <br />
+              <br />
+              HTML | CSS | Javascript | Git
+            </p>
+            <div class="project-btns">
+              <a
+                href="https://github.com/rameshmane7218/shop.com"
+                target="_blank"
+                class="small-btn button"
+              >
+                Code<i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://ephemeral-cactus-fa8c49.netlify.app/"
+                target="_blank"
+                class="small-btn button"
+              >
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-img">
+            <img src="assets/img/Project4.png" alt="coshedule" />
+            <p class="project-title">CoSchedule</p>
+            <p class="project-subtitle">
+              CoSchedule organize all of your marketing in one place. From any
+              place.<br />
+              <br />
+              A collaborative project built by a team of 4, executed in 4 days.
+              <br />
+              <br />
+              HTML | CSS | Javascript | Git | React | Redux | JavaScript |
+              ChakraUI
+            </p>
+            <div class="project-btns">
+              <a
+                href="https://github.com/ArjunSinghBhakuni/CoSchedule.com-"
+                target="_blank"
+                class="small-btn button"
+              >
+                Code<i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://remarkable-ice-6564.vercel.app/"
+                target="_blank"
+                class="small-btn button"
+              >
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <!-- <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-container bd-grid">
+          <form action="" class="contact-form">
+            <input type="text" placeholder="Name" class="contact-input" />
+            <input type="mail" placeholder="Email" class="contact-input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact-input"
+            ></textarea>
+            <input
+              type="button"
+              value="Contact"
+              class="contact-button button"
+            />
+          </form>
+        </div>
+      </section> -->
+    </main>
+
+    <!--===== FOOTER + CONTACT=====-->
+    <footer class="footer section" id="contact">
+      <h2 class="section-title">Get in touch</h2>
+      <p class="footer-title">Prathmesh Shelar</p>
+      <div class="footer-social">
+        <a
+          href="www.linkedin.com/in/prathmesh-shelar-a054b9144"
+          target="_blank"
+          class="footer-icon"
+          ><i class="bx bxl-linkedin">
+            <br />
+            LinkedIn</i
+          ></a
+        >
+        <a
+          href="mailto:prathmeshshelar13999@gmail.com"
+          target="_blank"
+          class="footer-icon"
+          ><i class="bx bx-mail-send">
+            <br />
+            E-mail</i
+          ></a
+        >
+        <a href="tel:+91-9834134990" target="_blank" class="footer-icon"
+          ><i class="bx bx-phone">
+            <br />
+            Phone</i
+          ></a
+        >
+        <a
+          href="https://github.com/PrathmeshS-0595"
+          target="_blank"
+          class="footer-icon"
+          ><i class="bx bxl-github">
+            <br />
+            GitHub</i
+          ></a
+        >
+      </div>
+      <p>&#169; 2022 copyright all right reserved</p>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

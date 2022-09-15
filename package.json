@@ -1,0 +1,19 @@
+// {
+//   "name": "gagan-port",
+//   "version": "1.0.0",
+//   "description": "",
+//   "main": "index.js",
+//   "scripts": {
+//     "test": "echo \"Error: no test specified\" && exit 1"
+//   },
+//   "repository": {
+//     "type": "git",
+//     "url": "git+https://github.com/GaganChandan2003/PortFolio.git"
+//   },
+//   "author": "",
+//   "license": "ISC",
+//   "bugs": {
+//     "url": "https://github.com/GaganChandan2003/PortFolio/issues"
+//   },
+//   "homepage": "https://github.com/GaganChandan2003/PortFolio#readme"
+// }
