@@ -213,12 +213,14 @@ img {
 .home-social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--second-color);
 }
 .home-social-icon:hover,
 .footer-icon:hover {
   color: var(--first-color);
+  
+  
 }
 .home-img {
   position: absolute;
