@@ -228,6 +228,10 @@ img {
   bottom: 0;
   width: 65%;
 }
+#wave{
+   width: 10%;
+   margin-left: -2%;
+}
 
 /*BUTTONS*/
 .button {
