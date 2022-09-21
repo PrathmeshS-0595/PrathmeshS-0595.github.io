@@ -439,7 +439,7 @@ img.man-icons {
   margin-bottom: var(--mb-4);
 }
 .footer-icon {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2);
 }
@@ -450,6 +450,13 @@ img.man-icons {
   display: grid;
   grid-template-rows: 80px 600px 80px;
   grid-template-columns: 0.5fr 1fr; */
+}
+#stats{
+  padding: 1%;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+ width:fit-content;
+ margin: auto;
+ margin-bottom: 1%;
 }
 
 /* ===== MEDIA QUERIES=====*/
