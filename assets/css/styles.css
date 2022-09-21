@@ -443,6 +443,14 @@ img.man-icons {
   color: #fff;
   margin: 0 var(--mb-2);
 }
+#git_status{
+  width: 100%;
+  /* height: 100vh;
+  background: yellow;
+  display: grid;
+  grid-template-rows: 80px 600px 80px;
+  grid-template-columns: 0.5fr 1fr; */
+}
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px) {
@@ -527,6 +535,8 @@ img.man-icons {
   .contact-container {
     justify-items: center;
   }
+  
+ 
 }
 
 @media screen and (min-width: 1024px) {
@@ -537,4 +547,5 @@ img.man-icons {
   .home-img {
     right: 3%;
   }
+  
 }
