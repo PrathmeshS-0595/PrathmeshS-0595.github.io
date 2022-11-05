@@ -367,6 +367,7 @@ img.man-icons {
   /* column-gap: 2rem; */
   width: calc(100% - 2rem);
   margin: auto;
+  /* border: 1px dotted black; */
 }
 .project-img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
@@ -554,5 +555,6 @@ img.man-icons {
   .home-img {
     right: 3%;
   }
+  
   
 }
