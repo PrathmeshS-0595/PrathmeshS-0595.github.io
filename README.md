@@ -1,3 +1,17 @@
-<h1>Portfolio made with the help of HTML CSS and JS.</h1>
- 
+## Responsive Portfolio Website ✨
+
+Responsive Portfolio Website Using HTML, CSS and JavaScript, with a beautiful user interface. 
+Website contains: 
+- Header 
+- Home
+- About
+- Skills
+- Qualification
+- Services
+- Portfolio
+- Project in mind
+- Testimonial
+- Github Stats
+- Contact
+- Footer 
 
