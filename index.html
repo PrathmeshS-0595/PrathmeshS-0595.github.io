@@ -30,9 +30,8 @@
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#project" class="menu-btn">Projects</a></li>
                 <li><a href="#calender" class="menu-btn">Github Stats</a></li>
-                <!-- <li><a href="#project" class="menu-btn">Github-Stats</a></li> -->
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
-                <li><a id="resume" href="./Images/Prathmesh_Shelar_Resume.pdf" download target="_blank" class="menu-btn">Resume</a></li>
+                <li><a id="resume" onclick="cont()" target="_blank" download href="./Prathmesh_Shelar_Resume.pdf"  class="menu-btn">Resume</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -47,7 +46,7 @@
                 <div class="text-1">Hello, </div>
                 <div class="text-2">I'm Prathmesh !!!</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="./Images/Prathmesh_Shelar_Resume.pdf" download target="_blank">Resume</a>
+                <a  onclick="cont()" target="_blank" download href="./Prathmesh_Shelar_Resume.pdf">Resume</a>
             </div>
         </div>
     </section>
@@ -62,8 +61,6 @@
                 </div>
                 <div class="column right">
                     <div class="text">I'm Prathmesh Shelar,  <span class="typing-2"></span></div>
-                    <!-- <p>JAVA Back-End Developer, Dedicated to developing robust applications that interact with the Backend part of web applications. Have good knowledge in website architecture and web API designs. Problem-solving mindset with a goal to optimize my application for better stability and speed. Love to work in a team.</p> -->
-                    <!-- <a href="#">Download CV</a> -->
                     <p> 🏡 I am from Sangli, Maharashtra. <br>
                         😍 I like playing football, listening music, travelling. <br>
                         🤝 I think of myself as a people person and love to work in a team. <br>
@@ -329,5 +326,9 @@
 
     GitHubCalendar(".cardcal", "PrathmeshS-0595", { responsive: true });
     
+   function cont(){
+    return window.open('./Prathmesh_Shelar_Resume.pdf','-blank');
+   }
+   
 </script>
   
