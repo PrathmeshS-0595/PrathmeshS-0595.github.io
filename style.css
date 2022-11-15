@@ -246,7 +246,7 @@ section .title::after {
 .about, .skills, .calender{
  background-image: url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
  background-size: cover;
-  background-attachment: fixed;
+ background-attachment: fixed;
 }
 .about .title::after,
 .skills .title::after,
@@ -454,7 +454,7 @@ section .title::after {
   padding: 25px 35px;
   text-align: jutify;
   overflow: hidden;
-  height: 800px;
+  /* height: 800px; */
   transition: all 0.3s ease;
   /* border: 1px solid white; */
 
@@ -470,6 +470,8 @@ section .title::after {
   align-items: center;
   justify-content:center;
   transition: all 0.5s ease;
+  height: 800px;
+
 }
 .project .carousel .card:hover .box {
   transform: scale(1.03);
@@ -540,7 +542,7 @@ section .title::after {
 .project .carousel .card img {
   height: 250px;
   width: 300px;
-  
+  width: 100%;
   /* object-fit: cover; */
   border-radius: 5%;
   border: 2px solid #bcbcbc;
